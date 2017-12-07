@@ -1,10 +1,11 @@
 package edwin;
 
-public class practice {
+import java.util.Arrays;
 
+public class Triangle {
     private final double[] e;
 
-    public Practice(double a, double b, double c) {
+    public Triangle(double a, double b, double c) {
         this.e = new double[]{a, b, c};
         Arrays.sort(this.e);
     }
